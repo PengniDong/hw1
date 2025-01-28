@@ -83,7 +83,7 @@ SELECT m.title,
   JOIN studios s ON m.studio_id = s.studio_id
  ORDER BY m.movie_id;
 
- .print ""
+.print ""
 .print "Top Cast"
 .print "========"
 .print ""
